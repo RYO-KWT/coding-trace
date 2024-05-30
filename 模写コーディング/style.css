@@ -1,0 +1,135 @@
+
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+nav {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+#main-visual {
+    width: 100%;
+}
+/* PC */
+@media screen and (min-width: 768px) {
+/* リセット */
+body {
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: purple;
+}
+
+/* header */
+    header {
+        margin: 20px 183px 20px 179px;
+    }
+    #nav-pc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+/* MyProfle */
+    #nav-content1 {
+        border: solid 1px black;
+        padding: 11px 28px 12px 29px;
+    }
+
+/* About Works */
+    #nav-content2 > a {
+        margin-right: 35px;
+    }
+    #nav-content2 > a:last-child {
+        margin-right: 0;
+    }
+
+/* About */
+    #about > h1 {
+       text-align: center;
+       margin: 50px 428px 22px 428px;
+    }
+    #about-content {
+        display: flex;
+    }
+    #about-img {
+        margin-top: 26px;
+        margin-left: 180px;
+        border-radius: 50%;
+        width: 141px;
+        height: 142px;
+        object-fit: cover;
+    }
+    #about-profile {
+        margin-left: 33px;
+    }
+
+/* Works */
+    #works >h1 {
+        text-align: center;
+        margin: 44px 425px 30px 428px;
+    }
+    #works-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .works-card > img {
+        width: 179px;
+        height: 134px;
+    }
+    .works-card > p {
+        margin-top: 27px;
+        width: 178px;
+    }
+
+    .works-card-center > img {
+        width: 179px;
+        height: 134px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .works-card-center > p {
+        width: 178px;
+        margin-top: 27px;
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+/* footer */
+    footer {
+        text-align: center;
+        margin: 32px 347px 17px 345px;
+    }
+}
