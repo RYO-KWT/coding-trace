@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* フォントのサイズをブラウザの基準に設定。 */
+html {
+    font-size: 100%;
+}
+
+/* ボディー内の背景色 文字色 使用するフォントを指定。 */
+body {
+    background-color: #6a6a6a;
+    color: #ffffff;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* 写真がはみ出ないようにサイズを画面幅いっぱいに表示。 */
+img {
+    max-width: 100%;
+}
+
+/* リンクの装飾をリセット。 */
+a {
+    text-decoration: none;
+}
+
+/* リストの先頭の装飾をリセット。*/
+li {
+    list-style: none;
+}
+
+/* 各セクションごとの最大幅の共通設定。*/
+.container {
+    max-width: 960px;
+    margin: 0px auto 20px auto;
+    padding: 0 4%;
+}
+
+/* 各セクションの見出し部分の共通設定。*/
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* headerのimgと目に見えないaタグの行間をなくすため*/
+.header-logo {
+    line-height: 1px;
+}
+
+/* headerの画像幅にaタグのリンクを貼るため */
+.header-logo a {
+    display: block;
+}
+
+.header-logo img {
+    width: 300px;
+    min-width: 260px;
+}
+
+/**/
+#header {
+    max-width: 960px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+#header ul {
+    display: flex;
+}
+
+#header li {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+#header li a {
+    color: #ffffff;
+}
+#header li a:hover {
+    color: gold;
+}
+
+/**/
+.menu1-contant {
+    display: flex;
+}
+.menu1-contant img {
+    width: 50%;
+}
+.menu1-text {
+    margin-left: 30px;
+}
+/**/
+.menu2-contant {
+    display: flex;
+}
+.menu2-contant img {
+    width: 50%;
+}
+.menu2-text {
+    margin-left: 30px;
+}
+
+/**/
+#footer {
+    background-color: #000000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
